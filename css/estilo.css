@@ -1,0 +1,73 @@
+body{
+   font-family:'Times New Roman', Times, serif;
+   background-color: black;
+}
+.cuerpo{
+   margin: 20px;
+   background-color: white;
+}
+#navegador{
+   background-color: white;
+   
+
+}
+.logo{
+   text-align: left;
+   float:left;
+   font-size: 25px;
+   height: auto;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align:right;
+    float: left;
+    width: 98%;
+    height: auto;
+ }
+ #navegador li{
+    display: inline;
+    margin-right: 30px;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    text-decoration: none;
+    color:black;
+ }
+ #navegador li a:hover{
+    background-color:white;
+    color: #ffffff;
+ }
+
+ .fotoi{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+
+ }
+ .foton{
+    float: inline-end;
+    background: black;
+ }
+
+ .cajas{
+   display: flex;
+   justify-content: center;
+   margin: 30px;
+ }
+ .cajas2{
+   display: flex;
+   justify-content: center; 
+   margin: 30px;
+ }
+ .album{
+    padding: 10px;
+   display: block;
+   margin: auto;
+   max-width: 100%;
+ }
+ /* Footer */
+ footer{
+    background-color: black;
+    height: fit-content;
+ }
