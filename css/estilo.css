@@ -60,6 +60,11 @@ body{
    justify-content: center; 
    margin: 30px;
  }
+ .cajas3{
+   display: flex;
+   justify-content: center; 
+   margin: 30px;
+}
  .album{
     padding: 10px;
    display: block;
